@@ -30,7 +30,7 @@
     //case sensitive needle
     needle_len_less1 = needle_len_ - 1;
     needle_.clear();
-    needle_.reserve(needle_len_);
+    needle_.reserve(needle_len_);//bababoy
     for (const char& c : needle) needle_.push_back(static_cast<uint8_t>(c));
     
     //case insensitive needle
