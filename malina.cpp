@@ -4,7 +4,7 @@
   BMH_Search(const char* haystack, size_t length, 
     const std::string& needle = "")
   {
-    Init();
+    Init();//good
     SetHayStack(haystack, length);
     if (needle.size() > 0) SetNeedle(needle);
   }
